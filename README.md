@@ -23,8 +23,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![image](https://user-images.githubusercontent.com/101649525/191889430-aaafcc83-fa3f-45c3-bcfc-5686f874d4fb.png)
 
 - Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- When looking at the total summary of all the lots, the variance of the coils is 62.29 PSI, which is within the 100 PSI variance limitation.
+- Individually, Lot 1 and Lot 2 are well within the 100 PSI variance limitations with variances of 0.98 and 7.47 respectively. However, Lot 3 that is showing a variance of 170.29, outside of the 100 PSI limitation. It is Lot 3 that is disproportionately causing the variance at the full lot level.
 
 ## T-Tests on Suspension Coils
+
+![image](https://user-images.githubusercontent.com/101649525/191892289-ccbc93f1-5087-499a-a8ba-09dfb99360f7.png)
+
+![image](https://user-images.githubusercontent.com/101649525/191892430-f35ab06d-240b-49e3-9b0c-9eca46f6d9df.png)
+
 
 ## Study Design: MechaCar vs Competition
 - What metric or metrics are you going to test?
