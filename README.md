@@ -29,12 +29,20 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 
 ![image](https://user-images.githubusercontent.com/101649525/191892289-ccbc93f1-5087-499a-a8ba-09dfb99360f7.png)
+- For all lots, the mean of the sample is 1498.78. There is also a p-Value of 0.06, which is higher than the common significance level of 0.05. The true mean of all three of these manufacturing lots is not equal to 1500 but there is NOT enough evidence to support rejecting the null hypothesis.
 
 ![image](https://user-images.githubusercontent.com/101649525/191892430-f35ab06d-240b-49e3-9b0c-9eca46f6d9df.png)
-
+- Lot 1 sample has a p-value of 1 and the true sample mean of 1500, the sample mean and the presumed population mean are statitically similar. 
+Lot 2 has a sample mean of 1500.02, a p-Value of 0.61; the sample mean and the population mean of 1500 are statistically similar.
+Lot 3 has a sample mean of 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. This indicates that this sample mean and the presumed population mean are not statistically similar.
 
 ## Study Design: MechaCar vs Competition
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
+1. What metric or metrics are you going to test?
+- When comparing the MechaCar to its competition, the company should compare the MechaCar in various categories that customers would care about: cost, city and highway fuel efficiency, safety rating, or yearly maintenance costs. Using these categories, you can determine the overall value of the MechaCar compared to the others and if it is priced fairly in the market.
+2. What is the null hypothesis or alternative hypothesis?
+- Null Hypothesis: MechaCar is valued at or similar to competitors and priced accurately.
+Alternative Hypothesis: MechaCar is NOT valued at or similar to competitors and priced inaccurately.
+3. What statistical test would you use to test the hypothesis? And why?
+- An ANOVA test could be used because it is able to test to see if the means from each vehicle are significantly similar or different. 
+4. What data is needed to run the statistical test?
+- Need to look at comparable models in the specified categories. If the p value is greater than 0.05, then MecaCar has equal to or similar value within the categories. If the p value is less than 0.05, then MecaCar's value is significantly different in those categories. If MecaCar's average is either below or above the others, it would determine its comparability in value to the others and if the prices are set fairly.
