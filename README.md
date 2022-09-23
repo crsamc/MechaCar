@@ -8,9 +8,12 @@ In this challenge, perform multiple linear regression analysis to identify which
 - Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 ## Linear Regression to Predict MPG
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- Is the slope of the linear model considered to be zero? Why or why not?
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- The variables that provided a non-random amount of variance to the mpg were vehicle_length and ground_clearance.
+2. Is the slope of the linear model considered to be zero? Why or why not?
+The p-value for this model equals 5.35e-11 and significantly lower than the assumed significance level of 0.05%. The slope is not considered to be zero.
+3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. This would predict mpg of MechaCar prototypes effectively.
 
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
