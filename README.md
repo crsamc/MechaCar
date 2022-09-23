@@ -1,1 +1,30 @@
-# MechaCar
+# MechaCar_Challenge
+## Overview 
+In this challenge, perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes, collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots, run t-tests to determine if the manufacturing lots are statistically different from the mean population and design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
+- Deliverable 1: Linear Regression to Predict MPG
+- Deliverable 2: Summary Statistics on Suspension Coils
+- Deliverable 3: T-Test on Suspension Coils
+- Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+
+## Linear Regression to Predict MPG
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- Is the slope of the linear model considered to be zero? Why or why not?
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+## Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
+
+![image](https://user-images.githubusercontent.com/101649525/191889332-f3108612-b652-43df-ab14-bf0ab2737064.png)
+
+![image](https://user-images.githubusercontent.com/101649525/191889430-aaafcc83-fa3f-45c3-bcfc-5686f874d4fb.png)
+
+- Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+## T-Tests on Suspension Coils
+
+## Study Design: MechaCar vs Competition
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?
